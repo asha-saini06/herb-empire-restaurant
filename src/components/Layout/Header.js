@@ -25,7 +25,9 @@ const Header = () => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography
-        color={"#438A02"}
+        color={"forestgreen"}
+        fontFamily={"Great Vibes"}
+        fontWeight={"bold"}
         variant="h6"
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
@@ -66,10 +68,12 @@ const Header = () => {
               <MenuIcon />
             </IconButton>
             <Typography
-              color={"#438A02"}
+              color={"forestgreen"}
               variant="h6"
               component="div"
               sx={{ flexGrow: 1 }}
+              fontFamily={"Great Vibes"}
+              fontWeight={"bold"}
             >
               <RamenDiningIcon />
               Herb Empire
@@ -108,7 +112,7 @@ const Header = () => {
             {drawer}
           </Drawer>
         </Box>
-        <Box sx={{ p: 2 }}>
+        <Box>
           <Toolbar />
         </Box>
       </Box>

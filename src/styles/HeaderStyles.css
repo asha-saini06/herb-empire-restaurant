@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 .nav-menu {
   list-style: none;
   display: flex;
@@ -27,4 +29,9 @@
   text-decoration: none;
   font-size: 1.4rem;
   color: #000;
+}
+
+.mobile-nav li a:hover,
+.nav-menu li a:hover {
+  color: forestgreen;
 }
