@@ -9,18 +9,31 @@ const Footer = () => {
   return (
     <>
       <Box
-        sx={{ textAlign: "center", bgcolor: "#1A1A19", color: "white", p: 1 }}
+        sx={{
+          position: "relative",
+          left: 0,
+          bottom: 0,
+          right: 0,
+          // height: "calc(100% - 60px)",
+          textAlign: "center",
+          bgcolor: "#1A1A19",
+          color: "white",
+          p: 1,
+          "& span": {
+            color: "#4CAF50",
+          },
+        }}
       >
         <Box
           sx={{
-            my: 3,
+            my: 2.2,
             "& svg": {
-              fontSize: "30px",
+              fontSize: "28px",
               cursor: "pointer",
               mr: 2,
             },
             "& svg:hover": {
-              color: "#438A02",
+              color: "#4CAF50",
               transform: "translateX(5px)",
               transition: "all 400ms",
             },
@@ -35,12 +48,15 @@ const Footer = () => {
         <Typography
           variant="h6"
           sx={{
+            fontSize: "1rem",
             "@media(max-width:600px)": {
-              fontSize: "1rem",
+              fontSize: "15px",
             },
           }}
         >
-          All Rights Reserved &copy; 2023
+          <p>
+            <span> Herb Empire</span> &copy; 2023 | All Rights Reserved
+          </p>
         </Typography>
       </Box>
     </>

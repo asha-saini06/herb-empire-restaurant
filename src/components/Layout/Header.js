@@ -8,8 +8,8 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import RamenDiningIcon from "@mui/icons-material/RamenDining";
-import { Link } from "react-router-dom";
+import Logo from "../../images/herb-empire-high-resolution-logo-color-on-transparent-background.png";
+import { Link, NavLink } from "react-router-dom";
 import "../../styles/HeaderStyles.css";
 import MenuIcon from "@mui/icons-material/Menu";
 
@@ -32,22 +32,31 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        <RamenDiningIcon />
-        Herb Empire
+        <Link to={"/"}>
+          <img src={Logo} alt="logo" height={"50"} width="200" />
+        </Link>
       </Typography>
       <Divider />
       <ul className="mobile-nav">
         <li>
-          <Link to={"/"}>Home</Link>
+          <NavLink activeClassName="active" to={"/"}>
+            Home
+          </NavLink>
         </li>
         <li>
-          <Link to={"/menu"}>Menu</Link>
+          <NavLink activeClassName="active" to={"/menu"}>
+            Menu
+          </NavLink>
         </li>
         <li>
-          <Link to={"/about"}>About</Link>
+          <NavLink activeClassName="active" to={"/about"}>
+            About
+          </NavLink>
         </li>
         <li>
-          <Link to={"/contact"}>Contact</Link>
+          <NavLink activeClassName="active" to={"/contact"}>
+            Contact
+          </NavLink>
         </li>
       </ul>
     </Box>
@@ -75,22 +84,32 @@ const Header = () => {
               fontFamily={"Great Vibes"}
               fontWeight={"bold"}
             >
-              <RamenDiningIcon />
-              Herb Empire
+              <Link to={"/"}>
+                {" "}
+                <img src={Logo} alt="logo" height={"70"} width="280" />
+              </Link>
             </Typography>
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="nav-menu">
                 <li>
-                  <Link to={"/"}>Home</Link>
+                  <NavLink activeClassName="active" to={"/"}>
+                    Home
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to={"/menu"}>Menu</Link>
+                  <NavLink activeClassName="active" to={"/menu"}>
+                    Menu
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to={"/about"}>About</Link>
+                  <NavLink activeClassName="active" to={"/about"}>
+                    About
+                  </NavLink>
                 </li>
                 <li>
-                  <Link to={"/contact"}>Contact</Link>
+                  <NavLink activeClassName="active" to={"/contact"}>
+                    Contact
+                  </NavLink>
                 </li>
               </ul>
             </Box>

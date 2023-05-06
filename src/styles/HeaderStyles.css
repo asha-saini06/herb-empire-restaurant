@@ -16,6 +16,11 @@
   color: #fff;
 }
 
+.active {
+  color: forestgreen !important;
+  font-weight: bold !important;
+}
+
 /* mobile-view */
 .mobile-nav {
   list-style: none;

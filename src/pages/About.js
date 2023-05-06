@@ -10,7 +10,7 @@ const About = () => {
         sx={{
           my: 10,
           textAlign: "center",
-          p: 15,
+          padding: "60px 120px",
           backgroundColor: "#2e8b57ad",
 
           "& h4": {
@@ -24,14 +24,15 @@ const About = () => {
           "@media (max-width:600px)": {
             mt: 0,
             p: 5,
+            fontSize: "14px",
             "& h4": {
               fontSize: "1.6rem",
             },
           },
         }}
       >
-        <Typography variant="h4" color={"#fff"} fontFamily={"Great Vibes"}>
-          Welcome To My Restaurant
+        <Typography variant="h4" color={"#003d1f"} fontFamily={"Great Vibes"}>
+          Welcome To Herb Empire
         </Typography>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident a
