@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/herb-empire-restaurant/static/css/main.f79f93bf.css",
-    "main.js": "/herb-empire-restaurant/static/js/main.93abdd41.js",
+    "main.js": "/herb-empire-restaurant/static/js/main.849a844e.js",
     "static/js/787.8a16c727.chunk.js": "/herb-empire-restaurant/static/js/787.8a16c727.chunk.js",
     "static/media/CornSalad.jpg": "/herb-empire-restaurant/static/media/CornSalad.4fddb59f3c23d84b5d40.jpg",
     "static/media/Sandwich.jpg": "/herb-empire-restaurant/static/media/Sandwich.acab6569788a4cecfdf7.jpg",
@@ -17,11 +17,11 @@
     "static/media/herb-empire-high-resolution-logo-color-on-transparent-background.png": "/herb-empire-restaurant/static/media/herb-empire-high-resolution-logo-color-on-transparent-background.8c4167e39b83de8642d8.png",
     "index.html": "/herb-empire-restaurant/index.html",
     "main.f79f93bf.css.map": "/herb-empire-restaurant/static/css/main.f79f93bf.css.map",
-    "main.93abdd41.js.map": "/herb-empire-restaurant/static/js/main.93abdd41.js.map",
+    "main.849a844e.js.map": "/herb-empire-restaurant/static/js/main.849a844e.js.map",
     "787.8a16c727.chunk.js.map": "/herb-empire-restaurant/static/js/787.8a16c727.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f79f93bf.css",
-    "static/js/main.93abdd41.js"
+    "static/js/main.849a844e.js"
   ]
 }
