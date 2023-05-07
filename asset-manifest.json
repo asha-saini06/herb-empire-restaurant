@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/herb-empire-restaurant/static/css/main.f79f93bf.css",
+    "main.js": "/herb-empire-restaurant/static/js/main.93abdd41.js",
+    "static/js/787.8a16c727.chunk.js": "/herb-empire-restaurant/static/js/787.8a16c727.chunk.js",
+    "static/media/CornSalad.jpg": "/herb-empire-restaurant/static/media/CornSalad.4fddb59f3c23d84b5d40.jpg",
+    "static/media/Sandwich.jpg": "/herb-empire-restaurant/static/media/Sandwich.acab6569788a4cecfdf7.jpg",
+    "static/media/pizza.jpg": "/herb-empire-restaurant/static/media/pizza.c424983ea6d69223b86d.jpg",
+    "static/media/Pancake.jpg": "/herb-empire-restaurant/static/media/Pancake.311190b8b632edb300c8.jpg",
+    "static/media/banner.jpg": "/herb-empire-restaurant/static/media/banner.778a49b82890e8f945e5.jpg",
+    "static/media/CreamSoup.jpg": "/herb-empire-restaurant/static/media/CreamSoup.d6a26c6a625bf72918c2.jpg",
+    "static/media/Noodles.jpg": "/herb-empire-restaurant/static/media/Noodles.97c67b6e381a5b3cd7e4.jpg",
+    "static/media/Zucchini Potato Fritters.jpg": "/herb-empire-restaurant/static/media/Zucchini Potato Fritters.1380a2dbc275c86b1a13.jpg",
+    "static/media/Burger.jpg": "/herb-empire-restaurant/static/media/Burger.9304804d40a574d7d773.jpg",
+    "static/media/main-banner.jpg": "/herb-empire-restaurant/static/media/main-banner.be81fbe5928a5909f0f8.jpg",
+    "static/media/spaghetti.jpg": "/herb-empire-restaurant/static/media/spaghetti.7a9cb83d031dc4ad5f52.jpg",
+    "static/media/herb-empire-high-resolution-logo-color-on-transparent-background.png": "/herb-empire-restaurant/static/media/herb-empire-high-resolution-logo-color-on-transparent-background.8c4167e39b83de8642d8.png",
+    "index.html": "/herb-empire-restaurant/index.html",
+    "main.f79f93bf.css.map": "/herb-empire-restaurant/static/css/main.f79f93bf.css.map",
+    "main.93abdd41.js.map": "/herb-empire-restaurant/static/js/main.93abdd41.js.map",
+    "787.8a16c727.chunk.js.map": "/herb-empire-restaurant/static/js/787.8a16c727.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f79f93bf.css",
+    "static/js/main.93abdd41.js"
+  ]
+}
