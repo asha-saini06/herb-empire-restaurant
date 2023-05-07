@@ -32,14 +32,14 @@ const Header = () => {
         component="div"
         sx={{ flexGrow: 1, my: 2 }}
       >
-        <Link to={"/"}>
+        <Link to={"/herb-empire-restaurant"}>
           <img src={Logo} alt="logo" height={"50"} width="200" />
         </Link>
       </Typography>
       <Divider />
       <ul className="mobile-nav">
         <li>
-          <NavLink activeClassName="active" to={"/"}>
+          <NavLink activeClassName="active" to={"/herb-empire-restaurant"}>
             Home
           </NavLink>
         </li>
@@ -84,7 +84,7 @@ const Header = () => {
               fontFamily={"Great Vibes"}
               fontWeight={"bold"}
             >
-              <Link to={"/"}>
+              <Link to={"/herb-empire-restaurant"}>
                 {" "}
                 <img src={Logo} alt="logo" height={"70"} width="280" />
               </Link>
@@ -92,7 +92,10 @@ const Header = () => {
             <Box sx={{ display: { xs: "none", sm: "block" } }}>
               <ul className="nav-menu">
                 <li>
-                  <NavLink activeClassName="active" to={"/"}>
+                  <NavLink
+                    activeClassName="active"
+                    to={"/herb-empire-restaurant"}
+                  >
                     Home
                   </NavLink>
                 </li>
